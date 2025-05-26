@@ -1,38 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:background="@drawable/ugipfp"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_weight="1"
-        />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Maghali Arka Nugraha Absen 20" />
+        android:background="@drawable/rounded_profile"
+        android:layout_gravity="center">
 
-    <ImageView
-        android:id="@+id/imageyazid"
-        android:background="@drawable/img"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_weight="1"
-        />
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="67dp"
+            android:background="@drawable/img"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Yazid Arsy Absen 24"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rounded_background"/>
 
-    <TextView
-        android:id="@+id/textViewyazid"
-        android:layout_width="wrap_content"
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Muhammad Yazid Arsy Absen 24" />
+        android:background="@drawable/rounded_profile"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ugipfp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maghali Arka Nugraha Absen 20"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rounded_background"
+            />
+
+    </LinearLayout>
+
 
 </LinearLayout>
