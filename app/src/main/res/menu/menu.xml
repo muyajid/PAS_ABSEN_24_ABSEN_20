@@ -10,7 +10,7 @@
         android:icon="@drawable/baseline_back_hand_24"
         android:title="Spanish League" />
     <item
-        android:id="@+id/nav_pemain"
+        android:id="@+id/nav_negara"
         android:icon="@drawable/baseline_blind_24"
-        android:title="Players" />
+        android:title="Negara" />
 </menu>
